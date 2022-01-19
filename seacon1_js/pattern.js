@@ -34,3 +34,9 @@ var og = /a/;
 var ig = /a/gi;
 "AabcdAa".match(ig); //["A","a","A","a"];
 // a를 찾는데 대소문자 구별하지 않고 모두 찾음(i+g의 기능)
+
+// JS 정규표현식 찾아서 공부
+var pattern = / (\w+) \s(\w+)/;
+var str = "coding evertbody";
+var result = str.replace(pattern, "$2, $1");
+console.log(result);
