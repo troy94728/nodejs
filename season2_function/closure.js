@@ -33,12 +33,9 @@ function factory_movie(title) {
 ghost = factory_movie("Ghost in the shell");
 matrix = factory_movie("matrix");
 
-console.log(ghost.get_title());
-console.log(matrix.get_title());
+console.log(ghost.get_title()); //ghost in the shell
+console.log(matrix.get_title()); //matrix
 ghost.set_title("공각기동대");
 
-console.log(ghost.set_title());
-console.log(ghost.set_title());
-
-// 박보람 백예린 벤 다비치 펀치 에일리 김나영 민아 마마무
-// 별들도 눈감은밥 세
+console.log(ghost.get_title()); //공각기동대
+console.log(matrix.get_title()); //matrix
